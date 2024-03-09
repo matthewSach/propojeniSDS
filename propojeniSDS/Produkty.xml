@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Produkty>
+	<Produkt>
+		<Nazev>Jogurt</Nazev>
+		<Popis>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Popis>
+		<Cena>100</Cena>
+		<Skladem>True</Skladem>
+	</Produkt>
+	<Produkt>
+		<Nazev>Lexaurin</Nazev>
+		<Popis>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Popis>
+		<Cena>12000</Cena>
+		<Skladem>True</Skladem>
+	</Produkt>
+	<Produkt>
+		<Nazev>Peroxid</Nazev>
+		<Popis>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Popis>
+		<Cena>900</Cena>
+		<Skladem>True</Skladem>
+	</Produkt>
+	<Produkt>
+		<Nazev>Peroxid</Nazev>
+		<Popis>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Popis>
+		<Cena>1240</Cena>
+		<Skladem>True</Skladem>
+	</Produkt>
+	<Produkt>
+		<Nazev>Čtvrka kyselé okorky</Nazev>
+		<Popis>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Popis>
+		<Cena>6</Cena>
+		<Skladem>True</Skladem>
+	</Produkt>
+</Produkty>

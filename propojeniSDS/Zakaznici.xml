@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zakaznici>
+	<Zakaznik>
+		<Jmeno>Michal</Jmeno>
+		<Prijmeni>Nováček</Prijmeni>
+		<Email>michynovy@mail.com</Email>
+		<DatumRegistrace>2008-11-11T13:23:44</DatumRegistrace>
+	</Zakaznik>
+	<Zakaznik>
+		<Jmeno>Jana</Jmeno>
+		<Prijmeni>Králová</Prijmeni>
+		<Email>jankr@mail.com</Email>
+		<DatumRegistrace>2009-05-16T10:15:30</DatumRegistrace>
+	</Zakaznik>
+	<Zakaznik>
+		<Jmeno>Petr</Jmeno>
+		<Prijmeni>Šťastný</Prijmeni>
+		<Email>petst@mail.com</Email>
+		<DatumRegistrace>2010-02-20T14:30:00</DatumRegistrace>
+	</Zakaznik>
+</Zakaznici>

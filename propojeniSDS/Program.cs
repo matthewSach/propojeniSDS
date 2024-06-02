@@ -12,8 +12,22 @@ namespace propojeniSDS
             Console.WriteLine("Vložit zákazníky do databáze: 2");
             Console.WriteLine("Vložit Objednávku: 3");
             string vstup = Console.ReadLine();
+        
+            // Získání cesty k aktuálnímu adresáři aplikace
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
-            string pathProdukty = "C:\\Users\\sachm\\OneDrive\\Dokumenty\\Škola\\PV\\propojeniSDS\\propojeniSDS\\Produkty.xml";
+            // Složení cesty k souboru ve složce Data
+            string pathProdukty = Path.Combine(basePath, "Data", "Produkty.xml");
+
+            // Kontrola, zda soubor existuje
+            if (File.Exists(pathProdukty))
+            {
+                Console.WriteLine($"Soubor byl nalezen: {pathProdukty}");
+            }
+            else
+            {
+                Console.WriteLine("Soubor nebyl nalezen.");
+            }
 
             if (vstup == "1")
             {
@@ -21,7 +35,16 @@ namespace propojeniSDS
                 dsmet.VlozitDoProduktZXML(pathProdukty);
             }
 
-            string pathZakaznici = "C:\\Users\\sachm\\OneDrive\\Dokumenty\\Škola\\PV\\propojeniSDS\\propojeniSDS\\Zakaznici.xml";
+            string pathZakaznici = Path.Combine(basePath, "Data", "Zakaznici.xml");
+
+            if (File.Exists(pathZakaznici))
+            {
+                Console.WriteLine($"Soubor byl nalezen: {pathZakaznici}");
+            }
+            else
+            {
+                Console.WriteLine("Soubor nebyl nalezen.");
+            }
 
             if (vstup == "2")
             {
